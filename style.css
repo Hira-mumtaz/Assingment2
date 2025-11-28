@@ -919,8 +919,7 @@ button{
   .indicator {
     width: 114px;
   }
-}
-
+  
     .btn{
         display: flex;
   flex-direction: column;
@@ -1249,5 +1248,8 @@ circle2 {
     color: rgb(255, 255, 255);
     margin: 10px 0;
   }
+
+}
+
 
 
