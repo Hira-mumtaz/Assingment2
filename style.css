@@ -680,10 +680,12 @@ footer {
 }
 /* 1200, 640,1400 ,768 */
 @media (max-width: 900px) {
-    .indicator{
-       
-        width: 222x
-    }
+   .indicator {
+  padding: 12px;
+  background-color: rgb(204, 246, 208);
+  width: 225px;
+  border-radius: 30px;
+}
     .box1.indicator p{
         font-size: 12px;
     }
