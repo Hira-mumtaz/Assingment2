@@ -1,9 +1,7 @@
 :root {
     font-family: poppins;
 }
-*{
-    /* box-sizing: border-box; */
-}
+
 :root p {
     font-size: 18px
 }
@@ -90,7 +88,7 @@ a:hover {
     font-size: 40px;
     font-weight: bold;
     background: linear-gradient(green, black);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     color: transparent;
     font-family: poppins;
 
@@ -205,9 +203,7 @@ a:hover {
 
 }
 
-.Left p {
-    /* color: black; */
-}
+
 
 .Right {
     display: flex;
@@ -799,7 +795,7 @@ footer {
   flex-direction: row;
      }
      .indicator3 p{
-        .indicator3display: flex;
+    display: flex;
   justify-content: center;
   margin: 0;
   font-size: 12px;
