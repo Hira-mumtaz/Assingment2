@@ -88,7 +88,7 @@ a:hover {
     font-size: 40px;
     font-weight: bold;
     background: linear-gradient(green, black);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     color: transparent;
     font-family: poppins;
 
