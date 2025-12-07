@@ -129,19 +129,14 @@ a:hover {
   width: 250px;
   border-radius: 30px;
 }
-
-.indicator2 p {
-  display: flex;
-  justify-content: center;
-
-}
-
 .box2 p {
   font-family: poppins, sans-serif;
   margin: 0px;
 }
 
 .indicator2 p {
+  display: flex;
+  justify-content: center;
   color: green;
   margin: 0;
 }
