@@ -1,11 +1,9 @@
 :root {
   font-family: poppins;
 }
-
 :root p {
   font-size: 18px
 }
-
 header {
   background-image: url(hero.jpg);
   background-repeat: no-repeat;
@@ -13,17 +11,13 @@ header {
   padding: 30px;
 
 }
-
 nav {
   /* background-color: #ebe9e9; */
   display: flex;
   justify-content: space-between;
   padding: 0px 20px 0px 20px;
   margin: 0;
-
 }
-
-
 nav ul {
   display: flex;
   list-style: none;
@@ -51,30 +45,22 @@ a:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
-
-
 }
-
 .indicator {
   padding: 12px;
   background-color: rgb(204, 246, 208);
   width: 300px;
   border-radius: 30px;
 }
-
 .indicator p {
   display: flex;
   justify-content: center;
 }
-
 .box1 p {
-
   color: green;
   font-family: poppins, sans-serif;
   margin: 0px;
-
 }
-
 .text h2 {
   text-align: center;
   font-size: 40px;
@@ -83,19 +69,15 @@ a:hover {
   -webkit-background-clip: text;
   color: transparent;
   font-family: poppins;
-
 }
-
 .text p {
   text-align: center;
   color: black;
   font-size: 30px;
 }
-
 #name {
   color: rgb(6, 141, 96);
 }
-
 .view-Portfolio {
   color: rgb(255, 255, 255);
   background-color: rgb(3, 114, 83);
