@@ -1,16 +1,22 @@
+:body{
+  margin: 0px;
+}
 :root {
   font-family: poppins;
 }
+
 :root p {
-  font-size: 18px
+  font-size: 14px
 }
+
 header {
   background-image: url(hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
-
+  padding: 20px 30px;
+  margin: 0px;
 }
+
 nav {
   /* background-color: #ebe9e9; */
   display: flex;
@@ -18,14 +24,22 @@ nav {
   padding: 0px 20px 0px 20px;
   margin: 0;
 }
+
+nav h1 {
+  margin: 0px;
+}
+
 nav ul {
   display: flex;
   list-style: none;
   text-decoration: none;
   gap: 20px;
   align-items: center;
-  height: 56px;
+  height: 46px;
+  margin: 0px;
+
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -49,35 +63,43 @@ a:hover {
 .indicator {
   padding: 12px;
   background-color: rgb(204, 246, 208);
-  width: 300px;
+  width: 232px;
   border-radius: 30px;
+  margin: 50px 0px 0px 0px;
 }
 .indicator p {
   display: flex;
   justify-content: center;
 }
+
 .box1 p {
   color: green;
   font-family: poppins, sans-serif;
   margin: 0px;
 }
+
 .text h2 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
   background: linear-gradient(green, black);
+  background-clip: border-box;
   -webkit-background-clip: text;
   color: transparent;
   font-family: poppins;
+  margin: 20px 0px;
 }
+
 .text p {
   text-align: center;
   color: black;
   font-size: 30px;
 }
+
 #name {
   color: rgb(6, 141, 96);
 }
+
 .view-Portfolio {
   color: rgb(255, 255, 255);
   background-color: rgb(3, 114, 83);
@@ -90,6 +112,7 @@ a:hover {
   font-family: poppins;
   font-weight: 600;
 }
+
 .Contact-Me {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
@@ -102,6 +125,7 @@ a:hover {
   font-family: poppins;
   font-weight: 600;
 }
+
 .indicator2 {
 
   /* padding: 12px; */
@@ -136,18 +160,14 @@ a:hover {
   width: 100%;
   margin: 50px 0px 30px 0px;
 }
-
-
-
-
-
 .text2 h2 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
   font-family: poppins;
-  margin: 0 0 0px 0;
+  margin: 0px 0px 40px 0px;
 }
+
 .text2 p {
   text-align: center;
   color: black;
@@ -156,21 +176,23 @@ a:hover {
   line-height: 12px;
   padding: 8px;
 }
+
 .box2-main {
   display: flex;
-  justify-content: center;
   flex-direction: row;
-  padding: 20px 0;
+  justify-content: space-between;
+  padding: 20px 50;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  gap: 30px;
+  gap: 10px;
 }
 
 .Left {
   width: 40%;
   background-color: rgb(255, 255, 255);
-
+  padding: 0px 0px 0px 50px;
 }
+
 .Right {
   display: flex;
   flex-direction: column;
@@ -187,16 +209,20 @@ a:hover {
   /* height: 100px; */
   border-radius: 20px;
   padding: 15px;
+  width: 361;
+
 }
+
 .Right-Icon {
   background-color: rgb(255, 255, 255);
   /* padding: 12px; */
-  width: 60px;
+  width: 48px;
   border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .right-Text {
   padding: 0px 12px 0px 12px;
 }
@@ -204,14 +230,17 @@ a:hover {
 .right-Text h3 {
   margin: 0px;
 }
+
 .right-Text p {
   margin: 0px;
 }
+
 .special {
   width: 30px;
   border-bottom: 2px solid green;
   display: inline-block;
 }
+
 .box3 {
   display: flex;
   justify-content: center;
@@ -220,6 +249,7 @@ a:hover {
   width: 100%;
   margin: 0;
 }
+
 .Discrption {
   margin: 0;
   margin-bottom: 50px;
@@ -228,9 +258,11 @@ a:hover {
 .Discrption p {
   margin: 0;
 }
+
 .box3 p {
   margin: 0px;
 }
+
 .box3-main {
   display: flex;
   justify-content: center;
@@ -240,6 +272,7 @@ a:hover {
   width: 100%;
   gap: 30px;
 }
+
 .box3-main2 {
   display: flex;
   justify-content: center;
@@ -252,10 +285,9 @@ a:hover {
 
 .box3-sub {
   background-color: rgb(176, 90, 25);
-  width: 60%;
-  height: 600px;
+  height:450px;
   border-radius: 12px;
-  background-image: url(hero.jpg);
+  background-image: url(coding.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: blueviolet; */
@@ -263,6 +295,7 @@ a:hover {
   align-items: flex-end;
   box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
 }
+
 .box3-sub-botom {
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -273,20 +306,25 @@ a:hover {
   line-height: 8px;
   box-shadow: 12px;
 }
+.box3-sub-botom h3 {
+
+  margin: 15px 0px;
+}
+
 .box3-sub-botom p {
   line-height: 20px;
   color: rgb(0, 0, 0);
   margin: 0px;
 }
-
 .indicator-main {
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 10px;
+  margin: 20px 0px;
 }
 
 .indicator3 {
-  padding: 12px;
+  padding: 10px;
   background-color: rgb(204, 246, 208);
   width: 100px;
   border-radius: 30px;
@@ -299,6 +337,7 @@ a:hover {
   justify-content: center;
   margin: 0;
 }
+
 .box4 {
   display: flex;
   justify-content: center;
@@ -307,16 +346,19 @@ a:hover {
   width: 100%;
   margin: 50px 0px 30px 0px;
 }
+
 .indicator4 {
   padding: 12px;
   width: 100px;
   border-radius: 30px;
   margin: 0;
 }
+
 .indicator4 p {
   color: green;
   margin: 0px;
 }
+
 .box4-main {
   width: 40%;
   background-color: rgb(240, 240, 240);
@@ -325,60 +367,71 @@ a:hover {
   padding: 15px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
 }
+
 .box4-main .box4-main-sub {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
 }
+
 .box4-Icon {
   background-color: rgb(255, 255, 255);
   /* padding: 12px; */
-  width: 60px;
+  width: 50px;
   border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .box4-Text {
   padding: 0px 12px 0px 12px;
 }
+
 .box4-Text h3 {
   margin: 0px;
 }
+
 .box4-Text p {
   margin: 0px;
 }
+
 .line-base {
   background-color: rgb(255, 255, 255);
   /* width: 200px; */
-  height: 08px;
+  height: 8px;
   border-radius: 9px;
 }
+
 .line-color {
-  background-color: aquamarine;
+  background-color: rgb(55, 133, 4);
   width: 100px;
-  height: 0px;
+  height: 8px;
   border-radius: 9px;
 }
+
 .box4-supper-main {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 15px;
 }
+
 .box4-Excelent {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+
 .indicator-All {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
-  margin: 40px 0px 60px 0px;
+  margin: 50px 0px 50px 0px;
 }
+
 .box5 {
   display: flex;
   justify-content: center;
@@ -386,44 +439,51 @@ a:hover {
   align-items: center;
   width: 100%;
 }
+
 .box5-top {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 50px 0px 0px 0px;
-}
+  margin: 130px 0px 0px 0px;
+  }
+
 .indicator5 {
   display: flex;
   border-radius: 30px;
   margin: 0;
   align-items: center;
 }
+
 .indicator5 p {
   color: green;
   margin: 0px;
 }
+
 .box5-botom {
   background-color: rgb(255, 255, 255);
   padding: 50px;
   width: 60%;
   border-radius: 20px;
-  margin: 40px 70px 70px 80px;
+  margin: 40px 0px 30px 80px;
   box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
   line-height: 25px;
 }
+
 .box5-botom2 {
   display: flex;
-  gap: 70px;
+  gap: 25px;
   justify-content: center;
   align-items: center;
 }
+
 .creat-icon {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
+
 .circle {
   background-color: rgb(234, 234, 234);
   width: 10px;
@@ -431,12 +491,14 @@ a:hover {
   border-radius: 100%;
 
 }
+
 .circle2 {
   background-color: rgb(11, 120, 120);
   width: 30px;
   height: 10px;
   border-radius: 30px;
 }
+
 .box6-botom {
   display: flex;
   flex-direction: row;
@@ -456,6 +518,7 @@ a:hover {
 
 
 }
+
 .Contact-info {
   display: flex;
   flex-direction: row;
@@ -463,6 +526,7 @@ a:hover {
   align-items: center;
   margin: 0;
 }
+
 .icon-bg {
   display: flex;
   align-items: center;
@@ -472,9 +536,12 @@ a:hover {
   height: 50px;
   border-radius: 30px;
 }
+
 .box6-Right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   background-color: rgb(255, 255, 255);
   padding: 40px;
   width: 40%;
@@ -482,27 +549,33 @@ a:hover {
   border-radius: 30px;
   box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
 }
+
 .label {
   display: flex;
   flex-direction: column;
   /* background-color: blue; */
 }
+
 #input-box {
-  width: 575px;
+  width: 518px;
   height: 40px;
   background-color: rgb(232, 232, 232);
   border-radius: 9px;
   border: 1px solid rgb(129, 129, 129);
+  padding: 0px 0px 0px 10px;
 }
+
 .contact-email p {
   margin: 0;
 }
+
 .contact-email h4 {
   margin: 0;
 }
+
 button {
-  width: 575px;
-  height: 55px;
+  width: 530px;
+  height: 50px;
   background-color: rgb(4, 82, 50);
   border-radius: 12px;
   border: 1px solid rgb(129, 129, 129);
@@ -521,6 +594,7 @@ button {
   flex-direction: row;
   gap: 10px;
 }
+
 .social-icon-bg {
   display: flex;
   justify-content: center;
@@ -531,6 +605,7 @@ button {
   width: 70px;
   height: 70px;
 }
+
 footer {
   background-color: black;
   color: white;
@@ -549,15 +624,17 @@ footer {
     flex-direction: column;
     } */
 }
+
 /* 1200, 640,1400 ,768 */
 @media (max-width: 900px) {
-   :root p {
+  :root p {
     font-size: 14px;
   }
 
   :root h2 {
     font-size: 30px;
   }
+
   .indicator {
     padding: 12px;
     background-color: rgb(204, 246, 208);
@@ -599,6 +676,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .box3-sub {
     background-color: rgb(176, 90, 25);
     width: 60%;
@@ -612,6 +690,7 @@ footer {
     align-items: flex-end;
     box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
   }
+
   .box3-sub {
     width: 45%;
     height: 391px;
@@ -624,6 +703,7 @@ footer {
     align-items: flex-end;
     box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
   }
+
   .box3-sub-botom {
     display: flex;
     background-color: rgb(255, 255, 255);
@@ -672,6 +752,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .indicator3 {
     padding: 6px;
     background-color: rgb(204, 246, 208);
@@ -719,6 +800,7 @@ footer {
     border-radius: 30px;
     box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
   }
+
   #input-box {
     width: 273px;
     height: 40px;
@@ -726,6 +808,7 @@ footer {
     border-radius: 9px;
     border: 1px solid rgb(129, 129, 129);
   }
+
   button {
     width: 273px;
     height: 48px;
@@ -735,6 +818,7 @@ footer {
     color: rgb(255, 255, 255);
     margin: 20px 0;
   }
+
   .box5-botom {
     background-color: rgb(255, 255, 255);
     padding: 50px;
@@ -744,6 +828,7 @@ footer {
     box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
     line-height: 25px;
   }
+
   .social-icon-bg {
     display: flex;
     justify-content: center;
@@ -754,6 +839,7 @@ footer {
     width: 56px;
     height: 56px;
   }
+
   .contact-email h4 {
     margin: 0;
     font-size: 14px;
@@ -766,6 +852,7 @@ footer {
   :root h2 {
     font-size: 19px;
   }
+
   :root p {
     font-size: 7px;
   }
@@ -774,6 +861,7 @@ footer {
     font-size: 20px;
     margin: 0px;
   }
+
   nav {
     display: flex;
     align-items: center;
@@ -783,9 +871,11 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
   nav a {
     font-size: 12px;
   }
+
   nav ul {
     display: flex;
     list-style: none;
@@ -795,14 +885,17 @@ footer {
     height: 56px;
     margin: 0px;
   }
+
   .indicator {
     width: 114px;
   }
+
   .btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .box2-main {
     display: flex;
     justify-content: center;
@@ -812,6 +905,7 @@ footer {
     width: 100%;
     gap: 30px;
   }
+
   .Left {
     width: 276px;
   }
@@ -821,6 +915,7 @@ footer {
     margin: 0px;
     text-align: center;
   }
+
   .Right {
     display: flex;
     flex-direction: column;
@@ -829,6 +924,7 @@ footer {
     padding: 0px;
     gap: 20px;
   }
+
   .Right-Icon {
     background-color: rgb(255, 255, 255);
     padding: 12px;
@@ -838,6 +934,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .box3-main2 {
     display: flex;
     justify-content: center;
@@ -848,6 +945,7 @@ footer {
     width: 100%;
     gap: 30px;
   }
+
   .box3-main {
     display: flex;
     justify-content: center;
@@ -857,6 +955,7 @@ footer {
     width: 100%;
     gap: 30px;
   }
+
   .box3-sub-botom {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -867,6 +966,7 @@ footer {
     box-shadow: 12px;
     width: 84%;
   }
+
   .box3-sub {
     width: 80%;
     height: 279px;
@@ -879,20 +979,24 @@ footer {
     align-items: flex-end;
     box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
   }
+
   .box3-sub-botom h3 {
     margin: 13px 0;
   }
+
   .box3-sub-botom p {
     line-height: 11px;
     color: rgb(0, 0, 0);
     margin: 0px;
   }
+
   .indicator-main {
     display: flex;
     flex-direction: row;
     gap: 8px;
     margin: 12px 0;
   }
+
   .indicator3 {
     padding: 6px;
     background-color: rgb(204, 246, 208);
@@ -901,6 +1005,7 @@ footer {
     margin: 0;
     flex-direction: row;
   }
+
   .box4 {
     display: flex;
     justify-content: center;
@@ -909,6 +1014,7 @@ footer {
     width: 100%;
     margin: 0px;
   }
+
   .indicator4 {
     padding: 20px 0 0 0;
     width: 100px;
@@ -917,16 +1023,19 @@ footer {
     display: flex;
     justify-content: center;
   }
+
   .Discrption {
     margin: 0;
     margin-bottom: 0px;
     margin-bottom: 0px;
   }
+
   .box4-supper-main {
     display: flex;
     flex-direction: column;
     gap: 11px;
   }
+
   .box4-main {
     width: 89%;
     background-color: rgb(240, 240, 240);
@@ -937,6 +1046,7 @@ footer {
     flex-direction: column;
     gap: 11px;
   }
+
   .box4-Icon {
     background-color: rgb(255, 255, 255);
     padding: 12px;
@@ -946,12 +1056,14 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .box4-main .box4-main-sub {
     display: flex;
     flex-direction: row;
     gap: 2px;
     align-items: center;
   }
+
   .indicator-All {
     display: flex;
     flex-direction: row;
@@ -959,6 +1071,7 @@ footer {
     justify-content: center;
     margin: 0px;
   }
+
   .indicator3 {
     padding: 6px;
     background-color: rgb(204, 246, 208);
@@ -967,6 +1080,7 @@ footer {
     margin: 0;
     flex-direction: row;
   }
+
   .box5-top {
     display: flex;
     justify-content: center;
@@ -975,6 +1089,7 @@ footer {
     width: 100%;
     margin: 30px 0px 0px 0px;
   }
+
   .box5-botom {
     background-color: rgb(255, 255, 255);
     padding: 19px;
@@ -988,6 +1103,7 @@ footer {
     margin: 20px;
     text-align: center;
   }
+
   .box5-botom2 {
     display: flex;
     gap: 7px;
@@ -995,28 +1111,33 @@ footer {
     align-items: center;
     width: 41%;
   }
+
   .creat-icon {
     display: flex;
     flex-direction: row;
     gap: 4px;
   }
+
   circle2 {
     background-color: rgb(11, 120, 120);
     width: 22px;
     height: 7px;
     border-radius: 30px;
   }
+
   .circle {
     background-color: rgb(234, 234, 234);
     width: 7px;
     height: 7px;
     border-radius: 100%;
   }
+
   .box5-botom2 img {
     width: 20px;
     height: 20px;
     aspect-ratio: auto 30 / 30;
   }
+
   .box6-botom {
     display: flex;
     flex-direction: column;
@@ -1024,12 +1145,14 @@ footer {
     width: 100%;
     padding: 0PX;
   }
+
   .box6-inerbox {
     display: flex;
     flex-direction: column;
     width: 89%;
     padding: 14px;
   }
+
   .icon-bg {
     display: flex;
     align-items: center;
@@ -1039,32 +1162,39 @@ footer {
     height: 37px;
     border-radius: 30px;
   }
+
   .icon-bg img {
     width: 25px;
     height: 25px;
     aspect-ratio: auto 30 / 30;
   }
+
   .contact-email h4 {
     margin: 0;
     font-size: 12px;
   }
+
   .contact-email p {
     font-size: 12px;
   }
+
   .box6-left-down {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .box6-left-down h3 {
     font-size: 14px;
     margin: 15px 0 0 0;
   }
+
   .box6-social-Icon {
     display: flex;
     flex-direction: row;
     gap: 0px;
   }
+
   .social-icon-bg {
     display: flex;
     justify-content: center;
@@ -1075,6 +1205,7 @@ footer {
     width: 43px;
     height: 43px;
   }
+
   .box6-Right {
     display: flex;
     flex-direction: column;
@@ -1087,6 +1218,7 @@ footer {
     box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5);
     margin: 0 15px;
   }
+
   #input-box {
     width: 230px;
     height: 36px;
@@ -1094,10 +1226,12 @@ footer {
     border-radius: 9px;
     border: 1px solid rgb(129, 129, 129);
   }
+
   .name-label {
     font-size: 12px;
     padding: 2px;
   }
+
   button {
     width: 230px;
     height: 36px;
