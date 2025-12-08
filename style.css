@@ -51,6 +51,8 @@ a:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
+
+
 }
 
 .indicator {
@@ -70,8 +72,6 @@ a:hover {
   color: green;
   font-family: poppins, sans-serif;
   margin: 0px;
-
-
 
 }
 
@@ -101,7 +101,7 @@ a:hover {
   background-color: rgb(3, 114, 83);
   font-family: poppins, sans-serif;
   margin: 0px;
-  padding: 10, 20;
+  padding: 10px, 20px;
   width: 150px;
   height: 45px;
   border-radius: 8px;
@@ -131,13 +131,17 @@ a:hover {
 .indicator2 p {
   display: flex;
   justify-content: center;
+
 }
+
 .box2 p {
   font-family: poppins, sans-serif;
   margin: 0px;
 }
 
 .indicator2 p {
+  display: flex;
+  justify-content: center;
   color: green;
   margin: 0;
 }
@@ -150,6 +154,11 @@ a:hover {
   width: 100%;
   margin: 50px 0px 30px 0px;
 }
+
+
+
+
+
 .text2 h2 {
   text-align: center;
   font-size: 40px;
@@ -462,6 +471,8 @@ a:hover {
   gap: 30px;
   border-bottom: 3px solid rgb(213, 213, 213);
   /* padding-bottom: 2opx; */
+
+
 }
 .Contact-info {
   display: flex;
